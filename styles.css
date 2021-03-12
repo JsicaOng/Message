@@ -1,0 +1,75 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  position: inherit;
+
+}
+
+body{
+  height:auto;
+  text-align: center !important;
+  font-family: 'Ma Shan Zheng', cursive !important;
+}
+
+h1:hover{
+  cursor:col-resize;
+  color: hotpink;
+  background: lightsteelblue;
+}
+
+h2:hover{
+  cursor:e-resize;
+  color: khaki;
+  background: darkseagreen;
+}
+
+nav {
+  position: absolute !important;
+  background-color: none !important;
+  border-radius: 60% 0% 80% 0% !important;
+}
+
+.navbar-brand{
+  cursor: inherit;
+}
+
+header{
+  padding-top: 5vh;
+}
+
+.f-card{
+  height: 100vh;
+}
+
+.s-card{
+  height:100vh;
+}
+
+.f-page{
+  background-image: url("image/chinese-background.jpg");
+}
+
+.l-page{
+  background-image: url("image/chinese-background.jpg");
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  35% { transform: translate(-1px, -2px) rotate(-1deg); }
+  75% { transform: translate(-3px, 0px) rotate(1deg); }
+  100% { transform: translate(3px, 2px) rotate(0deg); }
+}
+
+.title-container :hover{
+   animation: shake 0.5s;
+}
+
+
+.footer-caption{
+  width:fit-content;
+}
+
+/*@media only screen and (min-width: 990px) {
+
+}*/
