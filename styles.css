@@ -12,6 +12,10 @@ body{
   font-family: 'Ma Shan Zheng', cursive !important;
 }
 
+section{
+  background-color: thistle;  
+}
+
 h1:hover{
   cursor:col-resize;
   color: hotpink;
