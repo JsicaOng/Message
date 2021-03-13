@@ -40,10 +40,12 @@ header{
 
 .f-card{
   height: 100vh;
+  margin:auto;
 }
 
 .s-card{
   height:100vh;
+  margin:auto;
 }
 
 .f-page{
