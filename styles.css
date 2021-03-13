@@ -104,6 +104,7 @@ header{
 }
 
 .index-container{
+  padding-top: 30vh;
   width: fit-content;
   margin: auto;
 }
