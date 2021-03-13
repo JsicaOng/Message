@@ -13,7 +13,7 @@ body{
 }
 
 section{
-  background-color: thistle;  
+  background-color: thistle;
 }
 
 h1:hover{
@@ -36,6 +36,16 @@ nav {
 
 .navbar-brand{
   cursor: inherit;
+}
+
+.logo {
+  position:absolute;
+  transform: translate3d(-20vh, -5vh, 0px);
+  z-index: 2;
+}
+
+.logo: hover{
+  transform: rotate(360deg);
 }
 
 header{
