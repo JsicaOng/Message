@@ -30,7 +30,7 @@ gsap.to(".index-container", {
     trigger: ".index-container",
     toggleActions: "restart pause resume"
   },
-  y: 150,
+  y: 120,
   duration:5
 });
 
