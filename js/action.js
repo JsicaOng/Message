@@ -1,4 +1,4 @@
-alert("看不清楚的话，可以往字母按哦！")
+alert("花了两天时间，做出的成品，希望你们喜欢。\n 看不清楚的话，可以往字母按哦！")
 
 gsap.registerPlugin(ScrollTrigger);
 
