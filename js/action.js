@@ -1,3 +1,5 @@
+alert("看不清楚的话，可以往字母按哦！")
+
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".navbar-brand", {
