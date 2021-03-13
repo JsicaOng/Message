@@ -114,6 +114,11 @@ header{
   width:fit-content;
 }
 
-/*@media only screen and (min-width: 990px) {
-
-}*/
+@media only screen and (max-width: 1000px) {
+  .index-container{
+    padding-top: 0vh;
+  }
+  .f-card{
+    height: 60vh;
+  }
+}
