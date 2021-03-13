@@ -16,6 +16,10 @@ section{
   background-color: thistle;
 }
 
+.alert{
+  font-size: larger;
+}
+
 h1:hover{
   cursor:col-resize;
   color: darkgoldenrod;
