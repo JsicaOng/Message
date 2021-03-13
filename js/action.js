@@ -30,8 +30,8 @@ gsap.to(".index-container", {
     trigger: ".index-container",
     toggleActions: "restart pause resume"
   },
-  y: 60,
-  duration:7
+  y: 150,
+  duration:5
 });
 
 gsap.to(".footer-caption", {

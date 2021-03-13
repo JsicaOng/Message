@@ -87,11 +87,7 @@ header{
   margin:auto;
 }
 
-.f-page{
-  background-image: url("image/chinese-background.jpg");
-}
-
-.l-page{
+.page{
   background-image: url("image/chinese-background.jpg");
 }
 
