@@ -12,6 +12,10 @@ body{
   font-family: 'Ma Shan Zheng', cursive !important;
 }
 
+section{
+  background-color: thistle;  
+}
+
 h1:hover{
   cursor:col-resize;
   color: hotpink;
@@ -40,10 +44,12 @@ header{
 
 .f-card{
   height: 100vh;
+  margin:auto;
 }
 
 .s-card{
   height:100vh;
+  margin:auto;
 }
 
 .f-page{
@@ -61,10 +67,17 @@ header{
   100% { transform: translate(3px, 2px) rotate(0deg); }
 }
 
+.title-container {
+  color: dodgerblue;
+}
 .title-container :hover{
    animation: shake 0.5s;
+   transform: scale(1.5);
 }
 
+.index-container: hover{
+  transform: scale(1.5);
+}
 
 .footer-caption{
   width:fit-content;
