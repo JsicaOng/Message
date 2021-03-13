@@ -1,4 +1,4 @@
-alert("建议屏幕打横。希望你喜欢。\n 看不清楚的话，可以往字母按哦！")
+alert("若屏幕字体模糊，使用切换为水平或横向.\n 看不清楚的话，可以往字母按哦！")
 
 gsap.registerPlugin(ScrollTrigger);
 
